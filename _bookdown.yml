@@ -1,5 +1,6 @@
-book_filename: "gitbook-demo"
-rmd_files: ["index.Rmd"]
+book_filename: "Il libro dello Spirito e del Tempo"
+rmd_files: ["index.Rmd",
+  "01-variabili.Rmd"]
 output_dir: "docs"
 language:
   ui:

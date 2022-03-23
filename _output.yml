@@ -3,10 +3,10 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">Template GitBook</a></li>
+        <li><a href="./">Il libro dello Spirito e del Tempo</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/marcofarina/gitbook-template/edit/main/%s
+    edit: https://github.com/marcofarina/spirito-e-tempo/edit/main/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:

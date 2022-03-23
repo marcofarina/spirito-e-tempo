@@ -1,0 +1,48 @@
+# Fondamenti di programmazione {#fondamenti}
+
+## Input, output e semplici istruzioni
+### Hello World!
+#### Obiettivo{-}
+Il primissimo programma che ogni informatico realizza è il famoso "Hello World!". Realizzare un programma che stampa a video la stringa `Hello World!`.
+
+---
+
+### Greetings
+#### Obiettivo{-}
+Scrivere un programma che usa la funzione di input per chiedere all'utente il suo nome. Visualizzare in output un messaggio di benvenuto che includa il nome dell'utente.
+
+#### Esempio{-}
+```
+Come ti chiami?
+> Mario
+Benvenuto, Mario! Sei pronto per salvare la Principessa Peach?
+```
+
+---
+
+### Il triangolo no
+#### Obiettivo{-}
+Scrivere un programma che legge in input tre numeri interi maggiori di zero e calcola, visualizzandoli in output, il perimetro e l'area.
+
+#### Esempio{-}
+```
+Lato 1:
+> 3
+Lato 2:
+> 5
+Lato 3:
+> 7
+Il perimetro è lungo 15.
+L'area è 
+```
+
+#### Hint{-}
+Per calcolare l'area di un triangolo di cui sono note le misure dei lati si può usare la **formula di Erone**. Indicando con $a$, $b$ e $c$ i lati di un triangolo qualsiasi, si calcola prima il semipreimetro
+
+$$
+p = \frac{a+b+c}{2}
+$$
+A questo punto l'area si calcola tramite la formula
+$$
+A = \sqrt{p(p-a)(p-b)(p-c)}
+$$
