@@ -2,13 +2,11 @@
 
 ## Input, output e semplici istruzioni
 ### Hello World!
-#### Obiettivo{-}
 Il primissimo programma che ogni informatico realizza è il famoso "Hello World!". Realizzare un programma che stampa a video la stringa `Hello World!`.
 
 ---
 
 ### Greetings
-#### Obiettivo{-}
 Scrivere un programma che usa la funzione di input per chiedere all'utente il suo nome. Visualizzare in output un messaggio di benvenuto che includa il nome dell'utente.
 
 #### Esempio{-}
@@ -21,7 +19,6 @@ Benvenuto, Mario! Sei pronto per salvare la Principessa Peach?
 ---
 
 ### Il triangolo no
-#### Obiettivo{-}
 Scrivere un programma che legge in input tre numeri interi maggiori di zero e calcola, visualizzandoli in output, il perimetro e l'area.
 
 #### Esempio{-}
@@ -45,4 +42,32 @@ $$
 A questo punto l'area si calcola tramite la formula
 $$
 A = \sqrt{p(p-a)(p-b)(p-c)}
+$$
+
+---
+
+### Biohazard
+Una coltura di batteri ha una popolazione iniziale di 500 cellule. Tenuto conto che la popolazione raddoppia ogni ora, scrivere un programma che, preso in input un numero di ore, calcola la popolazione batterica totale.
+
+---
+
+### Un orologio verboso
+Scrivere un programma che, preso in input un numero intero positivo di minuti, calcola il tempo espresso come *ore* e *minuti*.
+
+####Esempio{-}
+```
+Inserire il numero di minuti:
+> 888
+888 minuti equivalgono a 14 ore e 48 minuti.
+```
+
+---
+
+### La somma di Gauss
+Scrivere un programma che somma i primi $n$ numeri interi e visualizza il risultato in output.
+
+#### Hint{-}
+Il calcolo può essere facilmente svolto con la formulazione inventata dal giovane Gauss: quando il suo maestro alle elementari gli chiese di sommare i primi 100 numeri per punizione. Il geniale ragazzino si accorse che $1+100=101$, $2+99=101$, $3+98=101$, ecc, arrivando quindi alla formula
+$$
+\sum_{m=1}^{n} m = \frac{n(n-1)}{2}
 $$

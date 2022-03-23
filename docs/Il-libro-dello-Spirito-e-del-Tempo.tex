@@ -6,7 +6,7 @@
 ]{book}
 \title{Il Libro dello Spirito e del Tempo}
 \author{Prof.~Marco Farina}
-\date{2022-03-23}
+\date{2022-03-24}
 
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -109,20 +109,12 @@ Il capitolo \ref{fondamenti} racchiude gli esercizi basilari su \textbf{input} e
 \hypertarget{hello-world}{%
 \subsection{Hello World!}\label{hello-world}}
 
-\hypertarget{obiettivo}{%
-\subsubsection*{Obiettivo}\label{obiettivo}}
-\addcontentsline{toc}{subsubsection}{Obiettivo}
-
 Il primissimo programma che ogni informatico realizza è il famoso ``Hello World!''. Realizzare un programma che stampa a video la stringa \texttt{Hello\ World!}.
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \hypertarget{greetings}{%
 \subsection{Greetings}\label{greetings}}
-
-\hypertarget{obiettivo-1}{%
-\subsubsection*{Obiettivo}\label{obiettivo-1}}
-\addcontentsline{toc}{subsubsection}{Obiettivo}
 
 Scrivere un programma che usa la funzione di input per chiedere all'utente il suo nome. Visualizzare in output un messaggio di benvenuto che includa il nome dell'utente.
 
@@ -140,10 +132,6 @@ Benvenuto, Mario! Sei pronto per salvare la Principessa Peach?
 
 \hypertarget{il-triangolo-no}{%
 \subsection{Il triangolo no}\label{il-triangolo-no}}
-
-\hypertarget{obiettivo-2}{%
-\subsubsection*{Obiettivo}\label{obiettivo-2}}
-\addcontentsline{toc}{subsubsection}{Obiettivo}
 
 Scrivere un programma che legge in input tre numeri interi maggiori di zero e calcola, visualizzandoli in output, il perimetro e l'area.
 
@@ -174,6 +162,44 @@ p = \frac{a+b+c}{2}
 A questo punto l'area si calcola tramite la formula
 \[
 A = \sqrt{p(p-a)(p-b)(p-c)}
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{biohazard}{%
+\subsection{Biohazard}\label{biohazard}}
+
+Una coltura di batteri ha una popolazione iniziale di 500 cellule. Tenuto conto che la popolazione raddoppia ogni ora, scrivere un programma che, preso in input un numero di ore, calcola la popolazione batterica totale.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{un-orologio-verboso}{%
+\subsection{Un orologio verboso}\label{un-orologio-verboso}}
+
+Scrivere un programma che, preso in input un numero intero positivo di minuti, calcola il tempo espresso come \emph{ore} e \emph{minuti}.
+
+\#\#\#\#Esempio\{-\}
+
+\begin{verbatim}
+Inserire il numero di minuti:
+> 888
+888 minuti equivalgono a 14 ore e 48 minuti.
+\end{verbatim}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{la-somma-di-gauss}{%
+\subsection{La somma di Gauss}\label{la-somma-di-gauss}}
+
+Scrivere un programma che somma i primi \(n\) numeri interi e visualizza il risultato in output.
+
+\hypertarget{hint-1}{%
+\subsubsection*{Hint}\label{hint-1}}
+\addcontentsline{toc}{subsubsection}{Hint}
+
+Il calcolo può essere facilmente svolto con la formulazione inventata dal giovane Gauss: quando il suo maestro alle elementari gli chiese di sommare i primi 100 numeri per punizione. Il geniale ragazzino si accorse che \(1+100=101\), \(2+99=101\), \(3+98=101\), ecc, arrivando quindi alla formula
+\[
+\sum_{m=1}^{n} m = \frac{n(n-1)}{2}
 \]
 
   \bibliography{book.bib,packages.bib}
